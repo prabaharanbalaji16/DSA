@@ -1,0 +1,40 @@
+Steps to developing a usable algorithm
+    Model the problem
+    Find a algorithm to solve it
+    Fast Enough ? Fits in Memory
+    If not, Figure it out why
+    Find a way to address the problem
+    Iterate until satisfied
+
+Dynamic Connectivity:
+    Operations :-
+    i) Union - Define a  path between two points.
+    ii) Connnected - Check whether a two points is connected or not.
+
+Types of Connectivity:
+    Reflexive : p is connected to q.
+    Symmentric : if p is connected to q then q is connected to p.
+    Transitive: If p is connected to q and q is connected to r, then r is connected to p.
+
+Connected Components :
+    Group of connected to elements is know as Components.
+    Eg: {0} {1 4 5 6 8} {2 3 7 9} --- Three connected Components
+
+Application of Dynamic Connectivity:-
+    Pixels in a Digital Photo.
+    Computers in a network.
+    Friend in a Socail Media.
+
+
+    Algorithm                           TimeTaken
+
+    Quick-Find                              M N
+    Quick-Union                             M N
+    Weighted QU                           N+M Log N
+    QU + path compression                 N+M Log N
+    Weighted QU + path compression        N+M lg* N
+
+    lg*  - iterated log function  -   Number of times to take the log N to get 1
+
+
+    
