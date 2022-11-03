@@ -1,0 +1,7 @@
+Stack:-
+    It is a data strcuture.
+    It is based on the concept Last in First out. Means the recently added item will be the first one to delete.
+
+Linked List:
+    Linked list is a linear data strcuture where the data are not stored in contigous memory. The data in the linked list
+are linked to each other by pointers.
