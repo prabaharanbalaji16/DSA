@@ -5,3 +5,43 @@ Stack:-
 Linked List:
     Linked list is a linear data strcuture where the data are not stored in contigous memory. The data in the linked list
 are linked to each other by pointers.
+
+Array Resizing:-
+    Array size is defined at the time of declaring or initializing. It's not possible to change the array size after that.
+But what we can do is define the the size of the array while declaring it. Then while the application is running if the array is reaching it's
+total length, then create a new array with double the size of the an existing array and copy the values between.
+
+Like this :
+
+void resize(int capacity)
+     {
+        String[] copy = new String[capacity];   // copy is the new array and capacity is 2*q.length
+        for(int i=0;i<q.length;i++)
+        {
+            copy[i] = q[i];
+        }
+        q = copy;       //q is an already existing array
+    } 
+
+** Java Linked List library take linear time to find an index in the array, where as Array takes constant time to
+find an index.
+
+Application of Stacks:-
+    Back button in a Web browser
+    Parsing in a Compiler
+
+
+
+Sorting:-
+
+Selection sort:
+    check the minimum value in the array and them swaps it to the first element in the array, then searchs
+the next minimum value and swaps it with the element which is in next position and it goes till the end.
+Its quadratic in time.
+
+Insertion Sort :
+
+    Everything on the left of the i'th index should be sorted. Index moves to the every element one by one and checks that the current 
+element is less that the element before. if it is less than then swaps the position. Now again current index check less than to the 
+element before it. If it is less, then swaps the position. Continue this to the end of the array and swaps till it sorted. The elements move 
+only one position even it has a long way to go.
