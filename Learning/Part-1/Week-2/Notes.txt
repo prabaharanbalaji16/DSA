@@ -45,3 +45,10 @@ Insertion Sort :
 element is less that the element before. if it is less than then swaps the position. Now again current index check less than to the 
 element before it. If it is less, then swaps the position. Continue this to the end of the array and swaps till it sorted. The elements move 
 only one position even it has a long way to go.
+
+
+Shell Sort:
+
+    Shell Sort is an extension of Insertion sort without the drawbacks of Insertion sort. Just like Insertion sort, it  compares and swaps the
+elements but these compares and swaps are happens between two elements which are far away from each other. and eventually the gap will reduce
+on the next iterations and at the end whole array will be sorted.
