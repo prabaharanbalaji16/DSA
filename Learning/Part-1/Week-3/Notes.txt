@@ -1,2 +1,12 @@
 Mergesort:
-    Divide an array in to two sub-array and recursively sort the arrays and merge it again.
+
+    Find the middle index and using that separate the array into two recursively 
+and sort the arrays and merge it again.
+
+QuickSort:
+
+    Select the first element in the array and consider an a paritioning element and move all the elements which are smaller than 
+the partitioning element to left and move all the elements which are greater than the partitioning element to the right. 
+Now just like mergesort, divide the array into two sub-array recursively and sort it.
+
+Shuffuling the array before partitioning it will give extra performance.
