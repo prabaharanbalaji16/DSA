@@ -1,0 +1,2 @@
+Mergesort:
+    Divide an array in to two sub-array and recursively sort the arrays and merge it again.
