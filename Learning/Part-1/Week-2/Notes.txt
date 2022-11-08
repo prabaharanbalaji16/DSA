@@ -52,3 +52,6 @@ Shell Sort:
     Shell Sort is an extension of Insertion sort without the drawbacks of Insertion sort. Just like Insertion sort, it  compares and swaps the
 elements but these compares and swaps are happens between two elements which are far away from each other. and eventually the gap will reduce
 on the next iterations and at the end whole array will be sorted.
+
+It's Linear (N) for Best case and Quadratic (N2) for worst and average case
+
