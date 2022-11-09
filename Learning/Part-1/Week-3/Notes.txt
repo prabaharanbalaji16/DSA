@@ -10,3 +10,10 @@ the partitioning element to left and move all the elements which are greater tha
 Now just like mergesort, divide the array into two sub-array recursively and sort it.
 
 Shuffuling the array before partitioning it will give extra performance.
+
+QuickSelect:
+    
+    Quick selection is used to find the kth element in an un-sorted array. Like Quick Sort, partitioning has
+ to be done. So that the elements which are left to the partitioning element are smaller and the elements
+ which are right to the partitioning elements are greater. After sorting the array, find the element from the
+ array which is present at Kth position.  
