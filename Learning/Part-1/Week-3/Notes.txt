@@ -17,3 +17,10 @@ QuickSelect:
  to be done. So that the elements which are left to the partitioning element are smaller and the elements
  which are right to the partitioning elements are greater. After sorting the array, find the element from the
  array which is present at Kth position.  
+
+
+Sorting Duplicates:
+
+        Just like QuickSort, pick a partitioning element. But here do three partition.. One for less than
+the partitioning element , another for greater elements and another one for element which are equal to 
+partitioning elements. Do comparison and swaps recursively.
