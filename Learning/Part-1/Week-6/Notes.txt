@@ -1,0 +1,7 @@
+Separate Chaining (Open Hashing):
+    One of a method in hash table. It combines the linked list with
+a hash table in order to resolve the collision.
+
+Linear probing (Closed Hashing):
+    Linear probing maintains the collections of key-value pair to 
+resolve the collision.
