@@ -1,0 +1,21 @@
+Graph:
+    Un-directed Graph
+    Directed Graph
+    Weighted directed graph
+    Weighted Undirected graph
+    Weighted Cyclic directed graph
+    Weighted Cyclic Undirected graph
+    Cyclic Directed graph 
+    Acyclic Directed graph
+
+Graph has two things: i) Vertex ii) Edges
+
+Vertex is like points or nodes and Edges are like the line or connection 
+between two Vertex.
+
+If the vertex are not in ordered pair and edges have no directions then it is Undirected graph or
+if it vertex's are ordered and edges have direction then it is Directed graph.
+
+Graph can be represented by :
+i) Adjaceny Matrix
+ii)  Adjaceny List

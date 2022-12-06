@@ -4,6 +4,8 @@
         "Learning/Part-1/Week-4",
         "Learning/Part-1/Week-3",
         "Learning/Part-1/Week-2",
-        "Learning/Part-1/Week-1"
-    ]
+        "Learning/Part-1/Week-1",
+        "Learning/Part-2/Week-1"
+    ],
+    "java.debug.settings.onBuildFailureProceed": true
 }
