@@ -19,3 +19,11 @@ if it vertex's are ordered and edges have direction then it is Directed graph.
 Graph can be represented by :
 i) Adjaceny Matrix
 ii)  Adjaceny List
+
+Directed Graph (Di graph):
+
+Directed Graph is a set pf vertices connected by directed edges.
+
+Topological Sort:
+    The vertex is pushed to stack only when all of its adjacent vertices are pushed in the stack.
+    First push all the vertices in to the stack and then print them it.
