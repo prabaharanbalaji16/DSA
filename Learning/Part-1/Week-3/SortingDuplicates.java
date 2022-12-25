@@ -1,3 +1,4 @@
+@SuppressWarnings("unchecked")
 public class SortingDuplicates{
     public static void main(String[] args) {
         Comparable a[] = {'P','A','B','X','W','P','P','V','P','D','P','C','Y','Z'};

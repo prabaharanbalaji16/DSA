@@ -1,3 +1,4 @@
+@SuppressWarnings("unchecked")
 public class LinearProbing<Key,Value> {
     private int M = 30001;
     private Value[] vals = (Value[]) new Object[M];

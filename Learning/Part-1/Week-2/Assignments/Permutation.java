@@ -1,7 +1,7 @@
 package Assignments;
 
 import java.util.Scanner;
-
+@SuppressWarnings("unchecked")
 public class Permutation {
     public static void main(String[] args) {
         int count = Integer.parseInt("3");

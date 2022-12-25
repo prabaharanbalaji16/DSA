@@ -1,3 +1,4 @@
+@SuppressWarnings("unchecked")
 public class MinHeap{
     Comparable pq[];
     int size;

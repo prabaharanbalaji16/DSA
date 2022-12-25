@@ -1,3 +1,4 @@
+@SuppressWarnings("unchecked")
 public class MaxHeap{
     Comparable[] pq;
     int size;

@@ -1,3 +1,4 @@
+@SuppressWarnings("unchecked")
 public class UnorderedPriorityQueue<Key extends Comparable<Key>>{
 
     private Key[] pq;

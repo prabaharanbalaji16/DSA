@@ -1,7 +1,7 @@
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.Stack;
-
+@SuppressWarnings("unchecked")
 public class StrongComponents{
     int V;
     LinkedList<Integer> adj[];

@@ -1,3 +1,4 @@
+@SuppressWarnings("unchecked")
 public class SeparateChaining<Key,Value>
 {
     private int M = 97;

@@ -1,5 +1,5 @@
 import java.util.ArrayList;
-
+@SuppressWarnings("unchecked")
 public class DetectCycle {
     int V;
     ArrayList<ArrayList<Integer>> adj;

@@ -1,3 +1,5 @@
+
+@SuppressWarnings("unchecked")
 public class InsertionSort {
     public static void main(String[] args) {
         Comparable[] a = {8,3,2,6,4,1,5,9};

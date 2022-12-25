@@ -1,10 +1,8 @@
 package Assignments;
 
-import java.util.Collections;
-import java.util.Iterator;
 import java.util.NoSuchElementException;
 import java.util.Random;
-
+@SuppressWarnings("unchecked")
 public class RandomizedQueue<Item> {
 
     private int n;

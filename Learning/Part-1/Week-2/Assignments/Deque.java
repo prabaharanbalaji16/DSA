@@ -2,7 +2,7 @@ package Assignments;
 
 import java.util.Iterator;
 import java.util.NoSuchElementException;
-
+@SuppressWarnings("unchecked")
 public class Deque<Item> implements Iterable<Item>{
 
     private int first, last, n;
