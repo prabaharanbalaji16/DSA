@@ -1,6 +1,9 @@
 import java.util.ArrayList;
 
 @SuppressWarnings("unchecked")
+
+//  This is a PRIM's Algorithm
+
 public class MinimumSpanningTree {
     private int V;
     ArrayList<WeightedEdge> adj[];
