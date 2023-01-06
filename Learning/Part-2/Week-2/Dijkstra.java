@@ -1,20 +1,17 @@
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.Hashtable;
-import java.util.List;
 import java.util.PriorityQueue;
 
+@SuppressWarnings("unchecked")
 public class Dijkstra {
     int V;
     ArrayList<DirectedEdge> adj[];
     DirectedEdge[] edgeTo;
     double[] distTo;
-    List pq[] = new ArrayList[V];
 
     public Dijkstra(int v)
     {
        V = v;
+       distTo = new double[V];
         adj = new ArrayList[V];
        for(int i=0;i<V;i++)
        {
@@ -33,7 +30,7 @@ public class Dijkstra {
     
     void path(int s)
     {
-        PriorityQueue pq = new PriorityQueue<>();
+        PriorityQueue<Integer> pq = new PriorityQueue<Integer>();
         distTo[s] =0;
         pq.add(s);
 
@@ -54,7 +51,7 @@ public class Dijkstra {
         }
         for(double d:distTo)
         {
-            System.out.println(d);
+            System.out.print((int)d+" ");
         }
     }
 
